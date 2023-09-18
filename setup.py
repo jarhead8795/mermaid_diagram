@@ -1,12 +1,13 @@
 import setuptools
 
 setuptools.setup(name='diagram_api_assignment',
-                 version='0.0.3',
+                 version='0.0.4',
                  author = 'Patrick Morton',
                  author_email = 'jarhead8795@gmail.com',
                  description = 'Generate flowchart mermaid markdown from weather data.',
                  long_description='Generate flowchart mermaid markdown from weather data.',
-                 packages=setuptools.find_packages(),
+                 package_dir={"": "src"},
+                 packages=setuptools.find_packages(where="src"),
                  classifiers=["Programming Language :: Python :: 3",
                               "License :: OSI Approved :: MIT License",
                               "Operating System :: OS Independent",
