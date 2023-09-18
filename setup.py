@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(name='diagram_api_assignment',
-                 version='0.0.1',
+                 version='0.0.2',
                  author = 'Patrick Morton',
                  author_email = 'jarhead8795@gmail.com',
                  description = 'Generate flowchart mermaid markdown from weather data.',
